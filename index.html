@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>myprabhav.org</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="prabhav(translates ~ 'impact') is a non-profit effort dedicated to leveraging technologies including like AI and more to change things in society for the better.">
+    <meta name="author" content="sujānt | rakshith">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/kube.min.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/custom.min.css" />
+    <link rel="shortcut icon" href="img/favicon.webp" />
+	<link href='http://fonts.googleapis.com/css?family=Playfair+Display+SC:700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+	<style>
+		.intro h1:before {
+			content: 'prabhav/प्रभाव';
+		}
+	</style>
+</head>
+<body>
+	<!-- Navigation -->
+	<div class="main-nav">
+		<div class="container">
+			<header class="group top-nav">
+				<div class="navigation-toggle" data-tools="navigation-toggle" data-target="#navbar-1">
+				    <span class="logo">hemlo</span>
+				</div>
+			    <nav id="navbar-1" class="navbar item-nav">
+				    <ul>
+				        <li class="active"><a href="#about">about</a></li>
+				        <li><a href="#vision">vision</a></li>
+				        <li><a href="#team">team</a></li>
+				        <!-- <li><a href="#skills">Skills</a></li> -->
+				    </ul>
+				</nav>
+			</header>
+		</div>
+	</div>
+
+	<!-- Introduction -->
+	<div class="intro section" id="about">
+		<div class="container">
+			<p>Hi, we're prabhav/प्रभाव !!</p>
+			<div class="units-row units-split wrap">
+				<div class="unit-20">
+					<img src="img/prabhav.webp" alt="Avatar">
+				</div>
+				<div class="unit-80">
+					<h1>we envision to<br><span id="typed"></span></h1>					
+				</div>
+				<p>
+					prabhav(translates ~ 'impact') is a non-profit effort dedicated to leveraging technologies including
+					AI and more to change things in society for the better. we want to create an ecosytem of good tools for it,
+					starting with a whatsapp AI bot to help access indian governement schemes data. its a e-governance tool in a way.
+				</p>				
+			</div>
+		</div>
+	</div>
+
+	<!-- Work Experience -->
+	<div class="work section second" id="vision">
+		<div class="container">
+			<h2>vision</h2>
+			<ul class="work-list">
+				<li><a href="#">whatsapp ai bot</a></li>
+				<li>* beta launched</li>
+				<li>* currently: english + hinglish</li>
+				<li>* future: multi-lingual & research on AI audio models</li>
+			</ul>
+			<!-- <ul class="work-list">
+				<li><a href="#">Wego</a></li>
+				<li>UI/UX Designer</li>
+			</ul>
+			<ul class="work-list">
+				<li><a href="#">Garuda Indonesia</a></li>
+				<li>System Designer</li>
+			</ul> -->
+		</div>
+	</div>
+
+	<!-- Award & Achievements -->
+	<div class="award section second" id="team">
+		<div class="container">
+			<h2>team</h2>
+			<ul class="award-list list-flat">
+				<li><a href="https://x.com/sujantkumarkv" target="_blank">sujānt</a></li>
+				<li>engineer</li>
+			</ul>
+			<ul class="award-list list-flat">
+				<li><a href="https://x.com/rakshithsajjan" target="_blank">rakshith</a></li>
+				<li>data generalist</li>
+			</ul>
+		</div>
+	</div>
+
+
+	<!-- Quote -->
+	<div class="quote">
+		<div class="container text-centered">
+			<h1>Be a tool to be useful to the world.</h1>
+		</div>
+	</div>
+
+	<footer>
+		<div class="container">
+			<div class="units-row">
+			    <div class="unit-50">
+			    	<p>Handcrafted by <a href="https://x.com/sujantkumarkv" target="_blank">sujānt</a> and 
+										<a href="https://x.com/rakshithsajjan" target="_blank">rakshith</a></p>
+			    </div>
+			    <div class="unit-50">
+					<ul class="social list-flat right">
+						<li><a href="mailto:sujantdev@gmail.com"><i class="fa fa-send"></i></a></li>
+						<!-- <li><a href="http://twitter.com/flamekaizar"><i class="fa fa-twitter"></i></a></li>
+						<li><a href="http://dribbble.com/flamekaizar"><i class="fa fa-dribbble"></i></a></li>
+						<li><a href="http://behance.com/flamekaizar"><i class="fa fa-behance"></i></a></li> -->
+					</ul>
+			    </div>
+			</div>
+		</div>
+	</footer>
+
+	<!-- Javascript -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/typed.min.js"></script>
+    <script src="js/kube.min.js"></script>
+    <script src="js/site.js"></script>
+    <script>
+		function newTyped(){}$(function(){$("#typed").typed({
+		// Change to edit type effect
+		strings: ["use technology for the better", "be useful in our way", "be remain fully opensource"],
+
+		typeSpeed:251,backDelay:700,contentType:"html",loop:!0,resetCallback:function(){newTyped()}}),$(".reset").click(function(){$("#typed").typed("reset")})});
+    </script>
+</body>
+</html>
